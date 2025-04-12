@@ -1,12 +1,12 @@
 import React from 'react';
 
-const UserCard = ({ name, email }) => {
+function UserCard({ name, email }) {
   return (
-    <div className="max-w-sm mx-auto mt-4 p-6 border rounded shadow bg-white">
+    <div className="max-w-sm p-4 bg-white shadow-lg rounded-lg">
       <h2 className="text-xl font-bold">{name}</h2>
       <p className="text-gray-600">{email}</p>
     </div>
   );
-};
+}
 
 export default UserCard;
