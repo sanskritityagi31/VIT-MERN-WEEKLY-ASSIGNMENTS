@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BlueButton = () => {
+function CustomButton() {
   const handleClick = () => {
     console.log("Button clicked!");
   };
@@ -8,11 +8,11 @@ const BlueButton = () => {
   return (
     <button
       onClick={handleClick}
-      className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
     >
       Click Me
     </button>
   );
-};
+}
 
-export default BlueButton;
+export default CustomButton;
