@@ -1,0 +1,3 @@
+let n = 7; // You can change this number
+let result = (n % 2 === 0) ? "Even" : "Odd";
+console.log("The number is:", result); // Output: Odd
